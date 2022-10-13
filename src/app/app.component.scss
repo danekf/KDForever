@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+/* Bottom left text */
+.top-center {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  color: yellow;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+}
+
+.placeholder-image {
+  width: 100%;
+  margin: -15% 0 0 0;
+}
