@@ -1,52 +1,5 @@
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
 @media screen and (min-width: 1100px) {
-
-  .top-center {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    color: white;
-    font-size: 2.5em;
-    transform: translate(-50%, -50%);
-  }
-  .subtitle-top-center {
-    position: absolute;
-    top: 13.5%;
-    left: 50%;
-    color: white;
-    font-size: 1em;
-    transform: translate(-50%, -50%);
-  }
-
 }
-
 
 @media screen and (max-width: 1100px) {
-  .top-center {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  color: white;
-  font-size: 1.5em;
-  transform: translate(-50%, -50%);
-}
-.subtitle-top-center {
-  position: absolute;
-  top: 13.5%;
-  left: 50%;
-  color: white;
-  font-size: .75em;
-  transform: translate(-50%, -50%);
-}
-}
-
-
-.placeholder-image {
-  width: 100%;
-  margin: -15% 0 0 0;
 }

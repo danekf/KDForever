@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body,html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+
+  background-image: url('./assets/static_images/enjoyingTheMoment.jpg');
+  height:100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
