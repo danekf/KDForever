@@ -8,9 +8,9 @@ Will be served to kdforever.ca using firebase.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## TO DO
+[] - Finish Home/landing page with basic details<br>
 [] - Responsive menu for lower resolution screens <br>
 [] - Open Google Maps with destination as the wedding venue<br>
-[] - Home page with basic details<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Location<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Time<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Basic Rules<br>
