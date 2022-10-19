@@ -8,13 +8,15 @@ import { MenuComponent } from './menu/menu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { DirectionsComponent } from './directions/directions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomePageComponent,
     MenuComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    DirectionsComponent
   ],
   imports: [
     BrowserModule,
