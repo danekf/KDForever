@@ -1,13 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+
 body,html{
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
+/* set background image to take up entire background of page, set image per specific page scss*/
 .background {
-
-  background-image: url('./assets/static_images/enjoyingTheMoment.jpg');
   height:100%;
 
   background-position: center;
