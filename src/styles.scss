@@ -4,15 +4,20 @@ body,html{
   margin: 0;
   padding: 0;
 }
-
-/* set background image to take up entire background of page, set image per specific page scss*/
+//Menu bar height
+.icon-bar{
+  height: 4em;
+}
+/* set background image to take up entire background of page, height 100vh minus the top menu bar size, set image per specific page scss*/
 .background {
-  height:100%;
+  background-attachment:fixed;
+  height: calc(100vh - 4em);
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
