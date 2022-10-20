@@ -7,12 +7,12 @@ body,html{
 //Menu Bar stuff
 
 .icon-bar{
-  height: 4em;
+  height: 3em;
 }
 /* set background image to take up entire background of page, height 100vh minus the top menu bar size, set image per specific page scss*/
 .background {
   background-attachment:fixed;
-  height: calc(100vh - 4em);
+  height: calc(100vh - 4.3em);
 
   background-position: center;
   background-repeat: no-repeat;
