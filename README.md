@@ -1,28 +1,25 @@
 # KDForever
 A wedding planning site, built for personal use. Used as a first look angular and typescript.
 
-Will be served to kdforever.ca using firebase.
+Will be served to kdforever.ca using firebase.(May change at a later date but using that service for now)
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## TO DO
+[] - Finish Home/landing page with basic details<br>
+[] - Responsive menu for lower resolution screens <br>
+[] - Open Google Maps with destination as the wedding venue, information about Hotel booking (if we have a deal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Location<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Time<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Basic Rules<br>
+[] - contact us has a link for email, and opens email for us.<br>
+[] - create users (Static so info can be sent to guests)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Guests can RSVP<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Guests can alter given passwords<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Guests can specify food allergies<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Guests can alter food choices when available<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[] -Guests are asked to email for specific unlisted needs<br>
+[] - Add registry<br>
+[] - <br>
