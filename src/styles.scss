@@ -3,9 +3,13 @@ body,html{
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-//Menu Bar stuff
 
+/////////////////
+//GLOBAL STYLES//
+/////////////////
+//Menu Bar stuff
 .icon-bar{
   height: 3em;
 }
@@ -18,7 +22,3 @@ body,html{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
