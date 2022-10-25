@@ -2,8 +2,6 @@
   display: flex;
 }
 
-
-
 .item-left{
   flex: 30%;
   background-color: red;
@@ -13,6 +11,17 @@
   flex: 70%;
   background-color: blue;
   height: calc(100vh - 4.3em);
+}
+
+.image{
+  background-image: url("../../assets/static_images/w_date.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: calc(100vh - 4.3em);
+
+
 }
 
 h1 {
