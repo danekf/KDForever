@@ -11,7 +11,8 @@ type UPDATE = Array<{update: string, timestamp: string}>;
 export class WelcomePageComponent implements OnInit {
 
   updates: UPDATE =[
-    {update: 'FAQ section added with setup questions', timestamp: 'Dec 19th 2022'},
+    {update: 'Mobile view is currently in the works, for now the website is best viewed on a display with a resolution equal or greater to 1280x720 (720p)', timestamp:'December 19th 2022'},
+    {update: 'FAQ section added.', timestamp: 'Dec 15th 2022'},
 
   ]
 
