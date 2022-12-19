@@ -102,6 +102,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "KDForever:build:production",
+            "firebaseProject": "kdforever-55d51",
+            "firebaseHostingSite": "kdforever-55d51"
+          }
         }
       }
     }
