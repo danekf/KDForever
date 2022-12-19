@@ -1,0 +1,25 @@
+.container {
+  background-color: #c4c1b8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.instructions {
+  margin-top: 2vh;
+  width: 30vw;
+}
+
+.instructions > h1 {
+  text-decoration: underline;
+}
+
+//GOOGLE MAP
+.map {
+  margin-top: 2vh;
+  margin-left: 3vw;
+
+  border: 1px solid black;
+  height: 450px; /* The height is 400 pixels */
+  width: 600px; /* The width is the width of the web page */
+}
