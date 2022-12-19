@@ -7,6 +7,8 @@ Will be served to kdforever.ca using firebase.(May change at a later date but us
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+Run `ng deploy` to deploy using locally saved firebase credentials.
+
 ## TO DO
 [X] - Finish Home/landing page with basic details<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[X] -Change Image on Right bar<br>
