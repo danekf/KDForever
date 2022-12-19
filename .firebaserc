@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "kdforever-55d51"
+  },
+  "targets": {
+    "kdforever-55d51": {
+      "hosting": {
+        "KDForever": [
+          "kdforever-55d51"
+        ]
+      }
+    }
   }
 }
