@@ -1,12 +1,12 @@
-<div class="background image"></div>
-<div class='text'>
-  <h1 class="title">FAQs</h1>
-  <ul>
-    <li *ngFor="let question of faqs">
-      {{question.question}}
-      <br>
-      {{question.answer}}
-    </li>
-  </ul>
+<div class = 'container image background'>
+  <div class='textbox'>
+     <h1 class="title">FAQs</h1>
+     <ul class = FAQs>
+       <li *ngFor="let question of faqs">
+         {{question.question}}
+         <br>
+         {{question.answer}}
+       </li>
+     </ul>
+   </div>
 </div>
-
