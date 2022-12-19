@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+//declare how an FAQ should be built
+type FAQ = Array<{question: string, answer: string}>;
+
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
@@ -7,16 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
 
-  FAQ: string[];
+  //create FAQs to be displayed using FAQ type declared above
+  faqs: FAQ = [
+    {question:'What is the date of the wedding?', answer:'The wedding is on September 2nd 2023'},
+    {question:'What is question #2?', answer:'This is question'}
+  ]
 
   constructor() {
-    this.FAQ = [
-      'What is the date of the wedding? - The wedding is on September 2nd 2023',
-      'string array #2'
-    ]
+
   }
 
   ngOnInit(): void {
+
   }
 
 }

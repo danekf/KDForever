@@ -2,7 +2,11 @@
 <div class='text'>
   <h1 class="title">FAQs</h1>
   <ul>
-    <li *ngFor="let question of FAQ">{{question}}</li>
+    <li *ngFor="let question of faqs">
+      {{question.question}}
+      <br>
+      {{question.answer}}
+    </li>
   </ul>
 </div>
 
