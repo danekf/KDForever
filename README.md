@@ -9,8 +9,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## TO DO
 [X] - Finish Home/landing page with basic details<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[] -Change Image on Right bar<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[] -Text font on right bar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[X] -Change Image on Right bar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[X] -Text font on right bar<br>
+[] - Change image on home page to remove text.<br>
+  [] - Add text on top of image in HTML so it is always visible<br>
 
 [] - Create updates component
 [] - Responsive menu for lower resolution screens <br>
@@ -31,3 +33,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 [] - Add registry<br>
 [] - <br>
+
+
+## Colour Palette
+<img src='https://scontent.fybz1-1.fna.fbcdn.net/v/t1.15752-9/319714290_688962852826551_4310894208176450952_n.png?_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=WA-R5xUd9r0AX9PPFJV&_nc_ht=scontent.fybz1-1.fna&oh=03_AdTYIsyNbC5oGheFEH9kw92RCH0pvmfP_Rf26aXoQesg3Q&oe=63C827C2'>
+<br>
+<ul>
+  <li>Coastal Plain (green): #98a08e</li>
+  <li>Repose Gray: #c4c1b8</li>
+  <li>Modern White: #c4c1b8</li>
+  <li>Windsor Greige: #bbad97</li>
+  <li>*something* Gray: #726f6b</li>
+</ul>

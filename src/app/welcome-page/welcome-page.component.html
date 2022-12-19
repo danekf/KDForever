@@ -1,13 +1,15 @@
  <h1>Welcome, click an item on the menu to get started!</h1>
  <div class="container">
 
-  <div class="item-left">
+   <div class="item-left image"></div>
+  <div class="item-right">
     <h2>Recent updates:</h2>
-    <div>New component required to show all updates</div>
-  </div>
-  <div class="item-right image">
-    <p>Kiri & Danek</p>
-    <p>Ottawa, 09/02/2023</p>
+    <ul class="updates">
+      <li class= 'update' *ngFor="let update of updates">
+        <div class="news">{{update.update}}</div>
+        <div class="timestamp">{{update.timestamp}}</div>
+      </li>
+    </ul>
   </div>
 
 </div>

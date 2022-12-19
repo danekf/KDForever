@@ -3,39 +3,43 @@
 }
 
 .item-left{
-  flex: 30%;
-  background-color: red;
+  flex: 80%;
   height: calc(100vh - 4.3em);
 }
 .item-right{
-  flex: 70%;
-  background-color: blue;
+  flex: 20%;
+  background-color:  #c4c1b8;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   height: calc(100vh - 4.3em);
 }
 
 .image{
+
   background-image: url("../../assets/static_images/w_date.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   height: calc(100vh - 4.3em);
-
-
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   text-shadow: 0 0 5px white;
   text-align: center;
-  background-color: grey;
+  background-color:  #c4c1b8;
   margin: 0;
+  border: 1px solid black;
 }
 
 p {
   font-size: 1em;
   text-shadow: 0 0 5px white;
 
+}
+
+.timestamp {
+  color: #726f6b;
 }
 
 
