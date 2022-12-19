@@ -1,5 +1,40 @@
 .image {
   background-image: url('../../assets/static_images/enjoyingTheMoment.jpg');
-  background-attachment:fixed;
-
+  // filter: blur(2px);
 }
+
+.textbox {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  // font-weight: bold;
+  border: 3px solid #f1f1f1;
+  //position: absolute;
+
+  top: 15%;
+  left: 50%;
+  transform: translate(10%, 10%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+li {
+  text-align: left;
+}
+
+li > .question{
+  text-shadow: red 1px 0 10px;
+  text-decoration: underline;
+}
+
+li > .answer{
+  text-shadow: green 1px 0 10px;
+}
+
+

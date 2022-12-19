@@ -1,5 +1,12 @@
-<div class="background image">
-  Contact : Danek.Fill@outlook.com
+<div class = 'container image background'>
+  <div class='textbox'>
+     <h1 class="title">FAQs</h1>
+     <ul class = FAQs>
+       <li *ngFor="let question of faqs">
+         <div class ='question'>{{question.question}}</div>
+         <div class ='answer'>{{question.answer}}</div>
+         <br>
+       </li>
+     </ul>
+   </div>
 </div>
-
-
