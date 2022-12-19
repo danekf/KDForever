@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
 
-  constructor() { }
+  FAQ: string[];
+
+  constructor() {
+    this.FAQ = [
+      'What is the date of the wedding? - The wedding is on September 2nd 2023',
+      'string array #2'
+    ]
+  }
 
   ngOnInit(): void {
   }

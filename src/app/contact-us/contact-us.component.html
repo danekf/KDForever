@@ -1,6 +1,8 @@
 <div class="background image"></div>
 <div class='text'>
-  <div>FAQ Goes here</div>
-  <div>For all other questions, please contact us at Danek.Fill@outlook.com</div>
+  <h1 class="title">FAQs</h1>
+  <ul>
+    <li *ngFor="let question of FAQ">{{question}}</li>
+  </ul>
 </div>
 
