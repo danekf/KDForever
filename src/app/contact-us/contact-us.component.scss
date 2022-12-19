@@ -26,15 +26,16 @@
 
 li {
   text-align: left;
+  list-style: none;
 }
 
 li > .question{
-  text-shadow: red 1px 0 10px;
+  text-shadow: #bbad97 1px 0 10px;
   text-decoration: underline;
 }
 
 li > .answer{
-  text-shadow: green 1px 0 10px;
+  text-shadow: #98a08e 1px 0 10px;
 }
 
 
