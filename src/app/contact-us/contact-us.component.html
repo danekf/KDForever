@@ -3,9 +3,9 @@
      <h1 class="title">FAQs</h1>
      <ul class = FAQs>
        <li *ngFor="let question of faqs">
-         {{question.question}}
+         <div class ='question'>{{question.question}}</div>
+         <div class ='answer'>{{question.answer}}</div>
          <br>
-         {{question.answer}}
        </li>
      </ul>
    </div>
