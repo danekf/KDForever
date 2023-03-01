@@ -1,1 +1,8 @@
-<p>register works!</p>
+<div class = 'container image background'>
+  <div class='textbox'>
+     <h1 class="title">RSVP Form</h1>
+   <span *ngFor="let guest of confirmedGuests">
+    {{guest.payload.doc.data().email}}
+   </span>
+   </div>
+</div>

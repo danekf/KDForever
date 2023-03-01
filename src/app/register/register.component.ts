@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirestoreService } from '../firestore.service';
 
 @Component({
   selector: 'app-register',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+  confirmedGuests: any;
+
+  constructor(private firestore: FirestoreService) {
+  }
 
   ngOnInit(): void {
+    //set confirmed guests on load, for testing
+    this.firestore.getConfirmedGuests().subscribe(
+      response => (this.confirmedGuests = response)
+    );
   }
+
 
 }
