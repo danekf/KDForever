@@ -8,10 +8,7 @@ import { FirestoreService } from '../firestore.service';
 })
 export class RegisterComponent implements OnInit {
 
-  formData: any;
-
-  constructor(private firestore: FirestoreService) {
-  }
+  constructor(public firestore: FirestoreService) {}
 
   ngOnInit(): void {
   }
