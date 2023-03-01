@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
+import { GuestListComponent } from './guest-list/guest-list.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
     ContactUsComponent,
     DirectionsComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    GuestListComponent
   ],
   imports: [
     BrowserModule,

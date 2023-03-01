@@ -8,16 +8,12 @@ import { FirestoreService } from '../firestore.service';
 })
 export class RegisterComponent implements OnInit {
 
-  confirmedGuests: any;
+  formData: any;
 
   constructor(private firestore: FirestoreService) {
   }
 
   ngOnInit(): void {
-    //set confirmed guests on load, for testing
-    this.firestore.getConfirmedGuests().subscribe(
-      response => (this.confirmedGuests = response)
-    );
   }
 
 

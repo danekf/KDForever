@@ -11,8 +11,8 @@ export class FirestoreService {
   constructor( private firestore: AngularFirestore ) { }
 
   getConfirmedGuests(){
-    //not sure if snapshotChanges is necessary or how it works yet, but tut says it will give all values in collection
-    return this.firestore.collection('Guests').snapshotChanges();
+    //return all from Guests where the 'accepted' field == true, send all (snapshot changes sends all)
+    return this.firestore.collection('Guests', ref => ref.where('accepted', '==', true)).snapshotChanges();
   }
 
   rsvp(data: any){
