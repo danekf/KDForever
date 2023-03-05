@@ -13,13 +13,13 @@ Run `ng deploy` to deploy using locally saved firebase credentials.
 [X] - Finish Home/landing page with basic details<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[X] -Change Image on Right bar<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[X] -Text font on right bar<br>
-[] - Change image on home page to remove text.<br>
+[X] - Change image on home page to remove text.<br>
   [] - Add text on top of image in HTML so it is always visible<br>
 
-[] - Create updates component
+[X] - Create updates component
 [] - Responsive menu for lower resolution screens <br>
 
-[] - Open Google Maps with destination as the wedding venue, information about Hotel booking (if we have a deal)<br>
+[X] - Open Google Maps with destination as the wedding venue, information about Hotel booking (if we have a deal)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Location<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Time<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[] -Basic Rules<br>

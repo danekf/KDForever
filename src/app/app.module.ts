@@ -9,6 +9,17 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { DirectionsComponent } from './directions/directions.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { GuestListComponent } from './guest-list/guest-list.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
+//using the compat layer for firestore because the tutorial is old and i am... lazy. Can change later, but need to get it working for now.
+import { environment } from "src/environments/environment";
+import { AngularFireModule } from "@angular/fire/compat";
+import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
 
 @NgModule({
   declarations: [
@@ -16,13 +27,20 @@ import { DirectionsComponent } from './directions/directions.component';
     WelcomePageComponent,
     MenuComponent,
     ContactUsComponent,
-    DirectionsComponent
+    DirectionsComponent,
+    RegisterComponent,
+    LoginComponent,
+    GuestListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
