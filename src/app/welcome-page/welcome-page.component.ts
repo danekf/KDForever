@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { timestamp } from 'rxjs';
 
 //declare how an FAQ should be built
 type UPDATE = Array<{update: string, timestamp: string}>;
@@ -11,7 +12,7 @@ type UPDATE = Array<{update: string, timestamp: string}>;
 export class WelcomePageComponent implements OnInit {
 
   updates: UPDATE =[
-    {update: 'Mobile view is currently in the works, for now the website is best viewed on a display with a resolution equal or greater to 1280x720 (720p)', timestamp:'December 19th 2022'},
+    {update: 'RSVP page is now accessible!', timestamp: 'March 5th 2022'},
     {update: 'FAQ section added.', timestamp: 'Dec 15th 2022'},
 
   ]

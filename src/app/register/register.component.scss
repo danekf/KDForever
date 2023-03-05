@@ -38,8 +38,12 @@ li > .answer{
   text-shadow: #98a08e 2px 0 10px;
 }
 
+.googleRSVP {
+  display: flex;
+  justify-content: center;
+}
+
 iframe {
-  display: block;
-  height: 85vh;
-  width: 100vw;
+  height: 90vh;
+  width: 50vw;
 }
