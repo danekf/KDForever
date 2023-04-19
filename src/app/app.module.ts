@@ -20,6 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
+import { ItineraryComponent } from './itinerary/itinerary.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
     DirectionsComponent,
     RegisterComponent,
     LoginComponent,
-    GuestListComponent
+    GuestListComponent,
+    ItineraryComponent
   ],
   imports: [
     BrowserModule,

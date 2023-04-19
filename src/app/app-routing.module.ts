@@ -6,6 +6,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DirectionsComponent } from './directions/directions.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { ItineraryComponent } from './itinerary/itinerary.component';
 
 const routes: Routes = [
   // the main paths
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'directions', component: DirectionsComponent},
   {path:'RSVP', component: RegisterComponent},
   {path:'Login', component: LoginComponent},
+  {path:'Itinerary', component: ItineraryComponent},
 
   //testing component path, change component and whenever you go to /test that page will render. Makes things a bit easier if testing single component
   {path:'test', component: MenuComponent},
