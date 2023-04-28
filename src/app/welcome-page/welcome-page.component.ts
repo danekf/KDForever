@@ -12,6 +12,8 @@ type UPDATE = Array<{update: string, timestamp: string}>;
 export class WelcomePageComponent implements OnInit {
 
   updates: UPDATE =[
+
+    {update: 'Itinerary added, discount code for reStays added to FAQ page.', timestamp: 'April 22nd 2022'},
     {update: 'RSVP page is now accessible!', timestamp: 'March 5th 2022'},
     {update: 'FAQ section added.', timestamp: 'Dec 15th 2022'},
 

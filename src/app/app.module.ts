@@ -21,6 +21,7 @@ import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
 import { ItineraryComponent } from './itinerary/itinerary.component';
+import { MealChoicesComponent } from './meal-choices/meal-choices.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ItineraryComponent } from './itinerary/itinerary.component';
     RegisterComponent,
     LoginComponent,
     GuestListComponent,
-    ItineraryComponent
+    ItineraryComponent,
+    MealChoicesComponent
   ],
   imports: [
     BrowserModule,
