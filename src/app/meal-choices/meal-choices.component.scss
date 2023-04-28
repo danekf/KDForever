@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Ysabeau';
+  height: 93vh;
+  background: #c4c1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  background: white;
+  padding: 60px;
+  width: 550px;
+  max-width: calc(100% - 60px);
+  border-radius: 2px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.form-element span {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  //choose new colour with kiri
+  border: 1px solid #bbad97;
+  line-height: 2;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.radio-buttons label {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.radio-buttons input {
+  cursor: pointer;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  color: #98a08e;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  color: #726f6b;
+  background-color: #bbad97;
+}
+
+
