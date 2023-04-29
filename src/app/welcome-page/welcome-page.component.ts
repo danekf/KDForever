@@ -13,8 +13,9 @@ export class WelcomePageComponent implements OnInit {
 
   updates: UPDATE =[
 
-    {update: 'Itinerary added, discount code for reStays added to FAQ page.', timestamp: 'April 22nd 2022'},
-    {update: 'RSVP page is now accessible!', timestamp: 'March 5th 2022'},
+    {update: 'Meal selection is now available.', timestamp: 'April 29th 2023'},
+    {update: 'Itinerary added, discount code for reStays added to FAQ page.', timestamp: 'April 22nd 2023'},
+    {update: 'RSVP page is now accessible!', timestamp: 'March 5th 2023'},
     {update: 'FAQ section added.', timestamp: 'Dec 15th 2022'},
 
   ]
