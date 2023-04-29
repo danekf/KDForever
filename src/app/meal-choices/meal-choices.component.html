@@ -2,12 +2,16 @@
 <div class="container">
   <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc7dT7q-QsrTXV6RQz-kjCD1D4tItXNGzcToajQeb72S-pt1g/formResponse" method="post">
     <h1>Meal Selection</h1>
-    <div>
-      Blurb Here about food
+    <div class="meal-description">
+      <span>Appetizers to be provided during cocktail hour.</span><br />
+      <span>First course is a Maple Butternut squash soup, with a candied pepita Garnish.</span><br />
+      <br />
+      <h3>Main course choices</h3>
+      <span class="end-section">We have 3 choices of main course to choose from. Each will come with a chefs choice vegetables and a side.</span><br />
     </div>
 
     <div class="form-element">
-      <span class='question'>Main Contact Name</span>
+      <span class='question p-top-extra'>Main Contact Name</span>
       <input type="text" name="entry.644801123"  placeholder="Enter Main Contact Name" required/>
     </div>
 
@@ -15,17 +19,20 @@
       <span class='question'>Main Contact Meal Choice</span>
         <label for="beef" >
           <input type="radio" id="beef" name="entry.408601343" value="Boneless Braised Beef Rib" required/>
-          <span>Boneless Braised Beef Rib"</span>
+          <span class="choice">Boneless Braised Beef Rib</span><br/>
+          <span class="subtext">Served with a carbernet demi-glace.</span>
         </label>
 
         <label for="chicken" >
           <input type="radio" id="chicken" name="entry.408601343" value="Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce" required/>
-          <span>Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce</span>
+          <span class="choice">Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce</span><br/>
+          <span class="subtext">Rosemary marinated chicken breast, finished with a creamy wild mushroom white wine sauce.</span>
         </label>
 
         <label for="veggie" >
           <input type="radio" id="veggie" name="entry.408601343" value="Grilled Cauliflower Steak" required/>
-          <span>Grilled Cauliflower Steak</span>
+          <span class="choice">Grilled Cauliflower Steak</span><br/>
+          <span class="subtext">Served with cherry tomato jam and classic gremolata.</span>
         </label>
     </div>
 
@@ -38,17 +45,20 @@
       <span class='question'>Guest Meal Choice (optional)</span>
         <label for="beef" >
           <input type="radio" id="beef" name="entry.659790131" value="Boneless Braised Beef Rib"/>
-          <span>Boneless Braised Beef Rib"</span>
+          <span class="choice">Boneless Braised Beef Rib"</span><br/>
+          <span class="subtext">Served with a carbernet demi-glace.</span>
         </label>
 
         <label for="chicken" >
           <input type="radio" id="chicken" name="entry.659790131" value="Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce"/>
-          <span>Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce</span>
+          <span class="choice">Rosemary Chicken w/ Wild Mushroom + White Wine Cream Sauce</span><br/>
+          <span class="subtext">Rosemary marinated chicken breast, finished with a creamy wild mushroom white wine sauce.</span>
         </label>
 
         <label for="veggie" >
           <input type="radio" id="veggie" name="entry.659790131" value="Grilled Cauliflower Steak"/>
-          <span>Grilled Cauliflower Steak</span>
+          <span class="choice">Grilled Cauliflower Steak</span><br/>
+          <span class="subtext">Served with cherry tomato jam and classic gremolata.</span>
         </label>
     </div>
       <button class='submit-button' type="submit">Submit meal choices</button>

@@ -1,4 +1,4 @@
-<div class = 'container image background'>
+<!-- <div class = 'container image background'> -->
   <!-- <div class='textbox'> -->
      <!-- <h1 class="title">RSVP Form</h1> -->
       <!-- <form [formGroup]="this.firestore.rsvpForm">
@@ -22,7 +22,62 @@
           type="number" min="0" max="1" step="1">
       </form> -->
     <!-- </div> -->
-  <div class = googleRSVP>
+  <!-- <div class = googleRSVP>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSaKs2GdGswNnptuotDrDsWHZkSV3ua-Rxe15dZMzPJ5FmDg/viewform?embedded=true" width="640"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
+</div> -->
+
+
+
+<div class="container">
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScSaKs2GdGswNnptuotDrDsWHZkSV3ua-Rxe15dZMzPJ5FmDg/formResponse" method="post">
+    <h1>RSVP Form</h1>
+    <div>
+      <span>Please note :</span> <br />
+      We are asking that guests find a sitter for their children where possible. <br />
+      If you are attending from out of town,  please contact us at KD.Together@outlook.com and we can make accommodations to have your children celebrate with us.
+    </div>
+
+    <div class="form-element">
+      <span class='question'>Main Contact Name</span>
+      <input type="text" name="entry.877086558"  placeholder="Enter Main Contact Name" required/>
+    </div>
+
+    <div class="form-element radio-buttons">
+      <span class='question'>Will you be attending the wedding?</span>
+        <label for="Yes" >
+          <input type="radio" id="yes" name="entry.1498135098" value="Yes" required/>
+          <span>Yes</span>
+        </label>
+
+        <label for="No" >
+          <input type="radio" id="No" name="entry.1498135098" value="Regrettably, no." required/>
+          <span>Regrettably, no.</span>
+        </label>
+    </div>
+
+    <div class="mid-section">The following section only needs to be filled out if you are attending the wedding.</div>
+
+    <div class="form-element">
+      <span class='question'>Email address of main contact</span>
+      <span class='subtext'>This email address will be used to contact you for any additional communication, if required. Please do not enter more than one email address.</span>
+      <input type="text" name="entry.2074559414" placeholder="Enter main contact email address." required/>
+    </div>
+
+    <div class="form-element">
+      <span class='question'>Second guests name</span>
+      <span class="subtext">(leave blank if attending solo)</span>
+      <input type="text" name="entry.1424661284" placeholder="Enter second guests name"/>
+
+      <span class="question">Allergies</span>
+      <span class="subtext">(if applicable)</span>
+      <input type="text" name="entry.2606285" placeholder="Enter any allergies, if applicable."/>
+
+      <span class="question">Comments and/or questions</span>
+      <span class="subtext">(Please let us know of any comments or questions we can answer for you)</span>
+      <input type="text" name="entry.1140987263" placeholder="Enter comments or quiestions for us."/>
+    </div>
+
+      <button class='submit-button' type="submit">Submit meal choices</button>
+  </form>
 </div>
