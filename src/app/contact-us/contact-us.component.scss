@@ -30,12 +30,16 @@ li {
 }
 
 li > .question{
-  text-shadow: #bbad97 2px 0 10px;
+  // text-shadow: #bbad97 2px 0 10px;
   text-decoration: underline;
+  font-size: 1.3em;
+  padding-bottom: 5px;
+  color:antiquewhite
+
 }
 
-li > .answer{
-  text-shadow: #98a08e 2px 0 10px;
-}
+// li > .answer{
+//   text-shadow: #98a08e 2px 0 10px;
+// }
 
 
