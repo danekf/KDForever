@@ -1,16 +1,28 @@
-<h1>Welcome, click an item on the menu to get started!</h1>
  <div class="container">
-
-   <div class="item-left image"></div>
-  <div class="item-right">
-    <h2>Recent updates:</h2>
-    <ul class="updates">
-      <li class= 'update' *ngFor="let update of updates">
-        <div class="news">{{update.update}}</div>
-        <div class="timestamp">{{update.timestamp}}</div>
-      </li>
-    </ul>
+  <!-- <div class="image"><img src="../../assets/static_images/no_date.png"></div> -->
+  <div class="image"><img src="../../assets/static_images/home1.png"></div>
+  <div class="midtext">
+    <div>
+      <a routerLink="/Itinerary">
+      <h1>Wedding</h1>
+      <span class="maintext">Stanleys Olde Maple<br/> Lane Farm <br/>Sept 2nd 2023, <br/>330PM</span>
+    </a>
+    </div>
+    <div>
+      <a routerLink="/contact-us">
+      <h1>Accomadations</h1>
+      <span class="maintext">Book downtown at <br/>ReStays Hotel. <br/>15% off code : FillW.</span>
+      <span class="subtext">Or <br/>book an Airbnb/hotel <br/>of your choosing</span>
+      </a>
+    </div>
+    <div>
+      <a routerLink="/directions">
+      <h1>Transportation</h1>
+      <span class="maintext">Bus available from ReStays Hotel, <br/>downtown Ottawa.</span>
+      <span class="subtext">Or<br/>Drive to the venue. <br/>See directions page for details</span>
+    </a>
+    </div>
   </div>
-
-</div>
-
+  <span class="additional"><a routerLink="/Itinerary">See the itinerary page for day of details</a></span>
+  <div class="image"><img src="../../assets/static_images/pouring.jpg"></div>
+ </div>

@@ -46,4 +46,7 @@ Run `ng deploy` to deploy using locally saved firebase credentials.
   <li>Modern White: #c4c1b8</li>
   <li>Windsor Greige: #bbad97</li>
   <li>*something* Gray: #726f6b</li>
+
+  <li>Darker green for text: #5c6244</li>
+  <li>Ligher green for text: #d8dfbe</li>
 </ul>
