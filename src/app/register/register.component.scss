@@ -56,15 +56,15 @@
 
 .container {
   font-family: 'Ysabeau';
-  height: 100vh;
   background: #c4c1b8;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
 form {
+  margin-top: 2vh;
   background: white;
   padding: 60px;
   width: 550px;
